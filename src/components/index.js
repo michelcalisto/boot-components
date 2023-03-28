@@ -1,6 +1,8 @@
-import FlButton from './Button/FlButton.vue'
-import FlBut from './Button/FlBut.vue'
-import FlBreadcrumbs from './FlBreadcrumbs'
+import BootBreadcrumb from './Breadcrumbs/Breadcrumb.vue'
+import BootBreadcrumbLang from './Breadcrumbs/BreadcrumbLang.vue'
 
-// export default { FlBut }
-export default { FlButton, FlBut, FlBreadcrumbs }
+export default 
+{ 
+    BootBreadcrumb,
+    BootBreadcrumbLang
+}
