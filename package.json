@@ -1,11 +1,25 @@
 {
-  "name": "init-components",
-  "version": "0.1.0",
-  "private": true,
+  "name": "boot-components",
+  "version": "0.1.2",
+  "description": "Componentes",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michelcalisto/boot-components.git"
+  },
+  "keywords": [
+    "boot",
+    "components",
+    "boot components",
+    "boot-components"
+  ],
+  "author": "Michel Calisto <calisto.michel@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/michelcalisto/boot-components#readme",
   "dependencies": {
     "vue": "^3.2.13"
   },

@@ -1,4 +1,4 @@
-# init-components
+# boot-components
 
 ## Project setup
 ```
