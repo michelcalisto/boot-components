@@ -1,6 +1,6 @@
 {
   "name": "boot-components",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Componentes",
   "main": "dist/boot-components.common.js",
   "module": "dist/boot-components.umd.min.js",
