@@ -24,7 +24,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 // main.js
 import { createApp } from 'vue'
 import App from '@/App.vue'
-import 'boot-components/dist/styles.css';
+import 'boot-components/dist/boot-components.css';
 import bootComponents from 'boot-components';
 // ...
 
