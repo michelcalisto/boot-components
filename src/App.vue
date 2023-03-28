@@ -1,9 +1,25 @@
+<script setup>
+import { computed } from 'vue';
+import Breadcrumb from './components/Breadcrumbs/Breadcrumb.vue'
+
+const crumbs = computed(() => { return [
+    { label: "Administration", url: 'http://google.com' },
+    { label: "Users" },
+]});
+
+const colors = computed(() => { return {
+    current: "text-gray-600",
+    slash: "text-gray-300",
+    url: "text-gray-400 hover:text-gray-500",
+}});
+</script>
+
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  {{ colors.slash }}
+  <Breadcrumb :items="crumbs" :colors="colors" />
 </template>
 
-<script>
+<!-- <script>
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
@@ -12,9 +28,9 @@ export default {
     HelloWorld
   }
 }
-</script>
+</script> -->
 
-<style>
+<!-- <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,4 +39,4 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-</style>
+</style> -->
