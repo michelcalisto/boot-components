@@ -1,4 +1,4 @@
-import * as components from './components-lang';
+import * as components from './components';
 
 const componentsList = components?.default;
 const BootComponents = {
